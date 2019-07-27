@@ -10,6 +10,7 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    __DEV__: 'readonly'
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -33,4 +34,11 @@ module.exports = {
       ],
       'import/prefer-default-export': 'off'
   },
+  settings: {
+      'import/resolver': {
+          'babel-plugin-root-import': {
+              rootPathSuffix: 'src'
+          }
+      }
+  }
 };
