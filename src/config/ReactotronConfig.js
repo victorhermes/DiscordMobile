@@ -7,7 +7,5 @@ if (__DEV__) {
         .useReactNative()
         .connect();
 
-    console.tron = tron;
-
     tron.clear();
 }
