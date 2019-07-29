@@ -1,5 +1,5 @@
 {
-    "name": "OmniStack Mobile",
+    "name": "omnistack",
     "version": "0.0.1",
     "private": true,
     "scripts": {
@@ -10,6 +10,7 @@
     "dependencies": {
         "react": "16.8.6",
         "react-native": "0.60.4",
+        "react-native-iphone-x-helper": "^1.2.1",
         "reactotron-react-native": "^3.6.4"
     },
     "devDependencies": {
