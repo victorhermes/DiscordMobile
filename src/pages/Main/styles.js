@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: colors.darkTransparent,
         paddingHorizontal: 20,
-        paddingTop: getStatusBarHeight() + 11,
+        paddingTop: getStatusBarHeight() + 10,
         height: 54 + getStatusBarHeight() + 10,
 
         flexDirection: 'row',
